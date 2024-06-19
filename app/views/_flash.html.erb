@@ -1,0 +1,10 @@
+<% if flash.any? %>
+
+<% flash.each do |message_type,message| %>
+<div style="background-color: skyblue;text-align: center;size: 20px;">
+	 <%= message %>
+	</div>
+
+
+<% end %>
+<% end %>
